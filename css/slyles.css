@@ -12,9 +12,6 @@ body {
 /* header */
 
 .header {
-  width: 1600px;
-  height: 80px;
-  flex-shrink: 0;
 }
 
 .header__logo {
@@ -34,7 +31,7 @@ body {
 }
 
 .header__nav {
-  
+
 }
 
 .header__nav__list {
@@ -43,8 +40,6 @@ body {
 
 .header__nav__item {
   color: #2196f3;
-
-  font-family: Roboto;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.28px;
@@ -71,35 +66,28 @@ font-size: 14px;
 font-weight: 500;
 letter-spacing: 0.28px;
 }
-/* main */
 
-.main {
-  width: 1600px;
-  height: 2346px;
-}
+/* hero */
 
-/* service */
-
-.service {
-  width: 1600px;
+.hero{
   height: 600px;
-  flex-shrink: 0;
+  background: #2F303A;
 }
 
-.service__title { 
-  display: flex;
-  width: 696px;
-  height: 120px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
+.hero__title { 
+  color: #FFF;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 900;
+  line-height:136.364%;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
 }
 
-.service__button {
+.hero__button {
   color: #FFF;
 
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 700;
   line-height: 187.5% ; 
@@ -109,7 +97,7 @@ letter-spacing: 0.28px;
 /* ideas */
 
 .ideas {
- 
+
 }
 
 .ideas__list {
@@ -139,7 +127,7 @@ letter-spacing: 0.28px;
 /* works */
 
 .works {
-
+ 
 }
 
 .works__title {
@@ -187,9 +175,7 @@ letter-spacing: 0.28px;
 }
 
 .team__list-img {
-  width: 270px;
-  height: 260px;
-  flex-shrink: 0;
+  
 }
 
 .team__list-title {
@@ -215,7 +201,7 @@ letter-spacing: 0.28px;
 }
 
 .portfolio {
-
+ 
 }
 
 .portfolio__button {
@@ -227,14 +213,7 @@ letter-spacing: 0.28px;
   letter-spacing: 0.48px;
 }
 
-.portfolio__button--colored {
-  color: #FFF;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 162.5%; 
-  letter-spacing: 0.48px;
-}
+
 
 /* project */
 
@@ -253,7 +232,6 @@ letter-spacing: 0.28px;
 .project__link-img {
   width: 370px;
   height: 294px;
-  flex-shrink: 0;
 }
 
 .project__list-title {
@@ -275,7 +253,8 @@ letter-spacing: 0.28px;
 /* footer */
 
 .footer {
-
+  height: 252px;
+  background: #2F303A;
 }
 
 .footer__logo {
@@ -302,17 +281,17 @@ letter-spacing: 0.28px;
 
 }
 
-.footer__list-link {
-  color: #FFF;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 171.429%; 
-  letter-spacing: 0.42px;
-}
-
-.footer__list-link--colored {
+.footer__list-link{
   color: var(--footer-color);
 font-size: 14px;
+font-weight: 400;
+line-height: 171.429%;
+letter-spacing: 0.42px;
+}
+
+#address {
+  color: #FFF;
+  font-size: 14px;
 font-weight: 400;
 line-height: 171.429%;
 letter-spacing: 0.42px;
