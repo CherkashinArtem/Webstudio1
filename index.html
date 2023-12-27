@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
-    <link rel="stylesheet" href="./css/Normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/slyles.css">
 </head>
@@ -19,6 +19,7 @@
 <body>
   <!-- header -->
   <header class="header">
+    <div class="container">
     <a href="#" class="header__logo"><span class="header__logo--colored">Web</span>Studio</a>
     <nav class="header__nav">
       <ul class="header__nav__list">
@@ -33,15 +34,18 @@
       <li class="header__contact__item"><a href="tel:+380961111111" class="header__contact__link">+38 096 111 11 11</a>
       </li>
     </ul>
-
+  </div>
   </header>
   <!-- main -->
   <main class="main">
     <section class="hero">
+      <div class="container">
       <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
       <button class="hero__button">Замовити послугу</button>
+    </div>
     </section>
     <section class="ideas">
+      <div class="container">
       <ul class="ideas__list">
         <li class="ideas__list-item">
           <h3 class="ideas__list-title">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -60,16 +64,20 @@
           <p class="ideas__list-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
         </li>
       </ul>
+    </div>
     </section>
     <section class="works">
+      <div class="container">
       <h2 class="works__title">Чим ми займаємося</h2>
       <ul class="works__list">
         <li class="works__list-item"><img src="./img/works/box-1.jpg" alt="завдання" class="works__list-img"></li>
         <li class="works__list-item"><img src="./img/works/box-2.jpg" alt="ноутбук" class="works__list-img"></li>
         <li class="works__list-item"><img src="./img/works/box-3.jpg" alt="планшет" class="works__list-img"></li>
       </ul>
+    </div>
     </section>
     <section class="team">
+      <div class="container">
       <h2 class="team__title">Наша команда</h2>
       <ul class="team__list">
         <li class="team__list-item"><img src="./img/team/img.jpg" alt="чоловік" class="team__list-img">
@@ -89,16 +97,19 @@
           <p class="team__list-text">UI Designer</p>
         </li>
       </ul>
+    </div>
     </section>
   </main>
   <!-- footer -->
   <footer class="footer">
+    <div class="container">
     <a href="#" class="footer__logo">Web<span class="footer__logo--colored"> Studio </span></a>
     <ul class="footer__list">
       <li class="footer__list-item"><a href="mailto:info@devstudio.com" id="address">info@devstudio.com</a></li>
       <li class="footer__list-item"><a href="#" class="footer__list-link">м. Київ, пр-т Лесі Українки, 26</a></li>
       <li class="footer__list-item"><a href="tel:+380961111111" class="footer__list-link">+38 096 111 11 11</a></li>
     </ul>
+  </div>
   </footer>
 </body>
 
