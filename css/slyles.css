@@ -85,6 +85,9 @@ body {
 .hero {
   height: 600px;
   background: #2f303a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero__title {
@@ -95,19 +98,19 @@ body {
   line-height: 136.364%;
   letter-spacing: 2.64px;
   text-transform: uppercase;
-
+  margin-bottom: 30px;
 }
 
 .hero__button {
+  display: block;
+  margin: 0 auto;
   color: #FFF;
-
   font-size: 16px;
   font-weight: 700;
   line-height: 187.5%;
   letter-spacing: 0.96px;
   width: 216px;
   height: 50px;
-  flex-shrink: 0;
   border-radius: 4px;
   background: #2196f3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
