@@ -84,10 +84,10 @@ body {
 
 .hero {
   height: 600px;
-  background: #2f303a;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url(/img/hero/hero.png);
 }
 
 .hero__title {
