@@ -155,7 +155,7 @@ body {
   height: 120px;
   border-radius: 4px;
   background: #F5F4FA;
-  background-image: url('../img/ideas/antenna.png');
+  background-image: url('./img/ideas/antenna.png');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -167,7 +167,7 @@ body {
   height: 120px;
   border-radius: 4px;
   background: #F5F4FA;
-  background-image: url('../img/ideas/clock.png');
+  background-image: url('./img/ideas/clock.png');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -179,7 +179,7 @@ body {
   height: 120px;
   border-radius: 4px;
   background: #F5F4FA;
-  background-image: url('../img/ideas/diagram.png');
+  background-image: url('./img/ideas/diagram.png');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -191,7 +191,7 @@ body {
   height: 120px;
   border-radius: 4px;
   background: #F5F4FA;
-  background-image: url('../img/ideas/astronaut.png');
+  background-image: url('./img/ideas/astronaut.png');
   background-repeat: no-repeat;
   background-position: center;
 }
