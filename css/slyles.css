@@ -249,7 +249,9 @@ body {
 .team__list-item {
   border-radius: 0px 0px 4px 4px;
   background: #FFF;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
 }
+
 
 .team__list-img {}
 
@@ -321,7 +323,15 @@ body {
   margin-bottom: 94px;
 }
 
-.project__link-item {}
+.project__link-item {
+  border: 1 #EEE;
+  background: #FFF;
+  box-shadow: 0px 1px 1px 0px #EEE;
+}
+
+.project__link-item:first-child {
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+}
 
 .project__link-img {
   width: 370px;
