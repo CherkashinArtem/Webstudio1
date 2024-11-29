@@ -196,7 +196,7 @@ body {
   height: 120px;
   border-radius: 4px;
   background: #F5F4FA;
-  background-image: url('../img/ideas/astronaut.svg');
+  background-image: url('../img/ideas/astronaut.svg ');
   background-repeat: no-repeat;
   background-position: center;
 }
